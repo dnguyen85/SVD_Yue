@@ -1,0 +1,11 @@
+run
+-opt_level 2
+-opt_mode speed
+-ifmt mixed
+-ifn /media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/devl/synthesis/v5fsl_xst.prj
+-top v5fsl
+-p virtex2p
+-ofn /media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/devl/synthesis/v5fsl_xst.ngc
+-iobuf NO
+-rtlview YES
+-hierarchy_separator /

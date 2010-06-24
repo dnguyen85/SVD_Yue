@@ -1,0 +1,29 @@
+##############################################################################
+## Filename:          /media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/data/v5fsl_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Tue May 18 02:57:21 2010 (by Create and Import Peripheral Wizard)
+##############################################################################
+lib v5fsl_v1_00_a Synchronizer.vhdl vhdl
+lib v5fsl_v1_00_a shift vhdl
+lib v5fsl_v1_00_a my_reg vhdl
+lib v5fsl_v1_00_a arctan_w vhdl
+lib v5fsl_v1_00_a p2r_w vhdl
+lib v5fsl_v1_00_a r2p_w vhdl
+lib v5fsl_v1_00_a AsyncReset.vhdl vhdl
+lib v5fsl_v1_00_a Binary2Gray.vhdl vhdl
+lib v5fsl_v1_00_a FIFO_boundary.vhdl vhdl
+lib v5fsl_v1_00_a FIFO_read.vhdl vhdl
+lib v5fsl_v1_00_a FIFO_write.vhdl vhdl
+lib v5fsl_v1_00_a FIFO.vhdl vhdl
+lib v5fsl_v1_00_a Gray2Binary.vhdl vhdl
+lib v5fsl_v1_00_a MUX_0_A1 vhdl
+lib v5fsl_v1_00_a MUX_1_A1 vhdl
+lib v5fsl_v1_00_a MUX_2_A1 vhdl
+lib v5fsl_v1_00_a MUX_3_A1 vhdl
+lib v5fsl_v1_00_a MUX_4_A1 vhdl
+lib v5fsl_v1_00_a MUX_5_A1 vhdl
+lib v5fsl_v1_00_a NSVD vhdl
+lib v5fsl_v1_00_a RAM.vhdl vhdl
+lib v5fsl_v1_00_a stage_I vhdl
+lib v5fsl_v1_00_a CORDIC vhdl
+lib v5fsl_v1_00_a v5fsl vhdl

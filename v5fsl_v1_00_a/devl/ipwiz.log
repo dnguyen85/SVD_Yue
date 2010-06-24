@@ -1,0 +1,582 @@
+Parsing PAO project file successfully ...
+Analyzing HDL source files ...
+Analyzing HDL source files successfully ...
+HDL language for the peripheral (top level) design unit r2p is vhdl ...
+INFO:EDK:948 - Create temparary xst project file:
+   /media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl.prj
+WARNING:HDLParsers:3607 - Unit v5fsl_v1_00_a/v5fsl is now defined in a different
+   file.  It was defined in
+   "/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/v5fsl1.vhd"
+   , and is now defined in
+   "/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/v5fsl.vhd".
+WARNING:HDLParsers:3607 - Unit v5fsl_v1_00_a/v5fsl/EXAMPLE is now defined in a
+   different file.  It was defined in
+   "/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/v5fsl1.vhd"
+   , and is now defined in
+   "/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/v5fsl.vhd".
+WARNING:HDLParsers:3607 - Unit v5fsl_v1_00_a/v5fsl is now defined in a different
+   file.  It was defined in
+   "/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/v5fsl.vhd",
+   and is now defined in
+   "/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/h
+   dl/vhdl/v5fsl.vhd".
+WARNING:HDLParsers:3607 - Unit v5fsl_v1_00_a/v5fsl/EXAMPLE is now defined in a
+   different file.  It was defined in
+   "/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/v5fsl.vhd",
+   and is now defined in
+   "/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/h
+   dl/vhdl/v5fsl.vhd".
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/ipcore_dir/arc
+tan.vhd" in Library v5fsl_v1_00_a.
+Entity <arctan> compiled.
+Entity <arctan> (Architecture <arctan_a>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/ipcore_dir/p2r
+.vhd" in Library v5fsl_v1_00_a.
+Entity <p2r> compiled.
+Entity <p2r> (Architecture <p2r_a>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/ipcore_dir/r2p
+.vhd" in Library v5fsl_v1_00_a.
+Entity <r2p> compiled.
+Entity <r2p> (Architecture <r2p_a>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/Binary2Gray.vh
+dl" in Library v5fsl_v1_00_a.
+Entity <Binary2Gray> compiled.
+Entity <Binary2Gray> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/Synchronizer.v
+hdl" in Library v5fsl_v1_00_a.
+Entity <Synchronizer> compiled.
+Entity <Synchronizer> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/Gray2Binary.vh
+dl" in Library v5fsl_v1_00_a.
+Entity <Gray2Binary> compiled.
+Entity <Gray2Binary> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/r2p_w.vhd" in
+Library v5fsl_v1_00_a.
+Entity <r2p_w> compiled.
+Entity <r2p_w> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/MUX_1_A1.vhd"
+in Library v5fsl_v1_00_a.
+Entity <MUX_1> compiled.
+Entity <MUX_1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/stage_I.vhd"
+in Library v5fsl_v1_00_a.
+Entity <stage_I> compiled.
+Entity <stage_I> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/MUX_0_A1.vhd"
+in Library v5fsl_v1_00_a.
+Entity <MUX_0> compiled.
+Entity <MUX_0> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/p2r_w.vhd" in
+Library v5fsl_v1_00_a.
+Entity <p2r_w> compiled.
+Entity <p2r_w> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/arctan_w.vhd"
+in Library v5fsl_v1_00_a.
+Entity <arctan_w> compiled.
+Entity <arctan_w> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/shift.vhd" in
+Library v5fsl_v1_00_a.
+Entity <shift_reg> compiled.
+Entity <shift_reg> (Architecture <arch>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/my_reg.vhd" in
+Library v5fsl_v1_00_a.
+Entity <my_reg> compiled.
+Entity <my_reg> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/MUX_2_A1.vhd"
+in Library v5fsl_v1_00_a.
+Entity <MUX_2> compiled.
+Entity <MUX_2> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/MUX_3_A1.vhd"
+in Library v5fsl_v1_00_a.
+Entity <MUX_3> compiled.
+Entity <MUX_3> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/MUX_4_A1.vhd"
+in Library v5fsl_v1_00_a.
+Entity <MUX_4> compiled.
+Entity <MUX_4> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/MUX_5_A1.vhd"
+in Library v5fsl_v1_00_a.
+Entity <MUX_5> compiled.
+Entity <MUX_5> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/NSVD.vhd" in
+Library v5fsl_v1_00_a.
+Entity <NSVD> compiled.
+Entity <NSVD> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/AsyncReset.vhd
+l" in Library v5fsl_v1_00_a.
+Entity <AsyncReset> compiled.
+Entity <AsyncReset> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/FIFO_write.vhd
+l" in Library v5fsl_v1_00_a.
+Entity <FIFO_write> compiled.
+Entity <FIFO_write> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/FIFO_read.vhdl
+" in Library v5fsl_v1_00_a.
+Entity <FIFO_read> compiled.
+Entity <FIFO_read> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/FIFO_boundary.
+vhdl" in Library v5fsl_v1_00_a.
+Entity <FIFO_boundary> compiled.
+Entity <FIFO_boundary> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/RAM.vhdl" in
+Library v5fsl_v1_00_a.
+Entity <RAM> compiled.
+Entity <RAM> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/v5fsl1.vhd" in
+Library v5fsl_v1_00_a.
+Entity <v5fsl> compiled.
+Entity <v5fsl> (Architecture <EXAMPLE>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/v5fsl.vhd" in
+Library v5fsl_v1_00_a.
+Entity <v5fsl> compiled.
+Entity <v5fsl> (Architecture <EXAMPLE>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/FIFO.vhdl" in
+Library v5fsl_v1_00_a.
+Entity <FIFO> compiled.
+Entity <FIFO> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/CORDIC.vhd" in
+Library v5fsl_v1_00_a.
+Entity <CORDIC> compiled.
+Entity <CORDIC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/
+vhdl/v5fsl.vhd" in Library v5fsl_v1_00_a.
+Entity <v5fsl> compiled.
+Entity <v5fsl> (Architecture <EXAMPLE>) compiled.
+
+
+Analyzing HDL attributes ...
+Entity name = v5fsl
+INFO:EDK:1607 - IPTYPE set to value : PERIPHERAL
+INFO:EDK:1511 - IMP_NETLIST set to value : TRUE
+INFO:EDK:1486 - HDL set to value : VHDL
+INFO:EDK:1953 - No SIGIS=RST specified for probable Reset signal FSL_Rst
+WARNING:EDK:2065 - PARAMETER:_AWIDTH - SLAVE FSL parameter is not defined in the
+   HDL source
+WARNING:EDK:2065 - PARAMETER:_DWIDTH - SLAVE FSL parameter is not defined in the
+   HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_SLAVES - SLAVE FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_MASTERS - SLAVE FSL parameter is not defined
+   in the HDL source
+WARNING:EDK:2065 - PARAMETER:_MID_WIDTH - SLAVE FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_AWIDTH - MASTER FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_DWIDTH - MASTER FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_SLAVES - MASTER FSL parameter is not defined
+   in the HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_MASTERS - MASTER FSL parameter is not defined
+   in the HDL source
+WARNING:EDK:2065 - PARAMETER:_MID_WIDTH - MASTER FSL parameter is not defined in
+   the HDL source
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+INFO:EDK:1631 - Infer bus clock [FSL_Clk] for bus interface MFSL ...
+INFO:EDK:1632 - Infer bus reset [FSL_Rst] for bus interface MFSL ...
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Rst!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Clk!
+INFO:EDK:1631 - Infer bus clock [FSL_Clk] for bus interface SFSL ...
+INFO:EDK:1632 - Infer bus reset [FSL_Rst] for bus interface SFSL ...
+ERROR:EDK:1987 - No port was associated to bus connector FSL_Rst!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+WARNING:EDK:2065 - PARAMETER:_AWIDTH - SLAVE FSL parameter is not defined in the
+   HDL source
+WARNING:EDK:2065 - PARAMETER:_DWIDTH - SLAVE FSL parameter is not defined in the
+   HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_SLAVES - SLAVE FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_MASTERS - SLAVE FSL parameter is not defined
+   in the HDL source
+WARNING:EDK:2065 - PARAMETER:_MID_WIDTH - SLAVE FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_AWIDTH - MASTER FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_DWIDTH - MASTER FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_SLAVES - MASTER FSL parameter is not defined
+   in the HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_MASTERS - MASTER FSL parameter is not defined
+   in the HDL source
+WARNING:EDK:2065 - PARAMETER:_MID_WIDTH - MASTER FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_AWIDTH - SLAVE FSL parameter is not defined in the
+   HDL source
+WARNING:EDK:2065 - PARAMETER:_DWIDTH - SLAVE FSL parameter is not defined in the
+   HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_SLAVES - SLAVE FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_MASTERS - SLAVE FSL parameter is not defined
+   in the HDL source
+WARNING:EDK:2065 - PARAMETER:_MID_WIDTH - SLAVE FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_AWIDTH - MASTER FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_DWIDTH - MASTER FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_SLAVES - MASTER FSL parameter is not defined
+   in the HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_MASTERS - MASTER FSL parameter is not defined
+   in the HDL source
+WARNING:EDK:2065 - PARAMETER:_MID_WIDTH - MASTER FSL parameter is not defined in
+   the HDL source
+HDL language for the peripheral (top level) design unit Synchronizer is vhdl ...
+INFO:EDK:948 - Create temparary xst project file:
+   /media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl.prj
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/Binary2Gray.vh
+dl" in Library v5fsl_v1_00_a.
+Entity <Binary2Gray> compiled.
+Entity <Binary2Gray> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/Synchronizer.v
+hdl" in Library v5fsl_v1_00_a.
+Entity <Synchronizer> compiled.
+Entity <Synchronizer> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/Gray2Binary.vh
+dl" in Library v5fsl_v1_00_a.
+Entity <Gray2Binary> compiled.
+Entity <Gray2Binary> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/r2p_w.vhd" in
+Library v5fsl_v1_00_a.
+Entity <r2p_w> compiled.
+Entity <r2p_w> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/MUX_1_A1.vhd"
+in Library v5fsl_v1_00_a.
+Entity <MUX_1> compiled.
+Entity <MUX_1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/stage_I.vhd"
+in Library v5fsl_v1_00_a.
+Entity <stage_I> compiled.
+Entity <stage_I> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/MUX_0_A1.vhd"
+in Library v5fsl_v1_00_a.
+Entity <MUX_0> compiled.
+Entity <MUX_0> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/p2r_w.vhd" in
+Library v5fsl_v1_00_a.
+Entity <p2r_w> compiled.
+Entity <p2r_w> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/arctan_w.vhd"
+in Library v5fsl_v1_00_a.
+Entity <arctan_w> compiled.
+Entity <arctan_w> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/shift.vhd" in
+Library v5fsl_v1_00_a.
+Entity <shift_reg> compiled.
+Entity <shift_reg> (Architecture <arch>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/my_reg.vhd" in
+Library v5fsl_v1_00_a.
+Entity <my_reg> compiled.
+Entity <my_reg> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/MUX_2_A1.vhd"
+in Library v5fsl_v1_00_a.
+Entity <MUX_2> compiled.
+Entity <MUX_2> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/MUX_3_A1.vhd"
+in Library v5fsl_v1_00_a.
+Entity <MUX_3> compiled.
+Entity <MUX_3> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/MUX_4_A1.vhd"
+in Library v5fsl_v1_00_a.
+Entity <MUX_4> compiled.
+Entity <MUX_4> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/MUX_5_A1.vhd"
+in Library v5fsl_v1_00_a.
+Entity <MUX_5> compiled.
+Entity <MUX_5> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/NSVD.vhd" in
+Library v5fsl_v1_00_a.
+Entity <NSVD> compiled.
+Entity <NSVD> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/AsyncReset.vhd
+l" in Library v5fsl_v1_00_a.
+Entity <AsyncReset> compiled.
+Entity <AsyncReset> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/FIFO_write.vhd
+l" in Library v5fsl_v1_00_a.
+Entity <FIFO_write> compiled.
+Entity <FIFO_write> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/FIFO_read.vhdl
+" in Library v5fsl_v1_00_a.
+Entity <FIFO_read> compiled.
+Entity <FIFO_read> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/FIFO_boundary.
+vhdl" in Library v5fsl_v1_00_a.
+Entity <FIFO_boundary> compiled.
+Entity <FIFO_boundary> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/RAM.vhdl" in
+Library v5fsl_v1_00_a.
+Entity <RAM> compiled.
+Entity <RAM> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/FIFO.vhdl" in
+Library v5fsl_v1_00_a.
+Entity <FIFO> compiled.
+Entity <FIFO> (Architecture <rtl>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/reduce_svd/CORDIC.vhd" in
+Library v5fsl_v1_00_a.
+Entity <CORDIC> compiled.
+Entity <CORDIC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file
+"/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/
+vhdl/v5fsl.vhd" in Library v5fsl_v1_00_a.
+Entity <v5fsl> compiled.
+Entity <v5fsl> (Architecture <EXAMPLE>) compiled.
+
+
+Analyzing HDL attributes ...
+Entity name = v5fsl
+INFO:EDK:1607 - IPTYPE set to value : PERIPHERAL
+INFO:EDK:1511 - IMP_NETLIST set to value : TRUE
+INFO:EDK:1486 - HDL set to value : VHDL
+INFO:EDK:1953 - No SIGIS=RST specified for probable Reset signal FSL_Rst
+WARNING:EDK:2065 - PARAMETER:_AWIDTH - SLAVE FSL parameter is not defined in the
+   HDL source
+WARNING:EDK:2065 - PARAMETER:_DWIDTH - SLAVE FSL parameter is not defined in the
+   HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_SLAVES - SLAVE FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_MASTERS - SLAVE FSL parameter is not defined
+   in the HDL source
+WARNING:EDK:2065 - PARAMETER:_MID_WIDTH - SLAVE FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_AWIDTH - MASTER FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_DWIDTH - MASTER FSL parameter is not defined in
+   the HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_SLAVES - MASTER FSL parameter is not defined
+   in the HDL source
+WARNING:EDK:2065 - PARAMETER:_NUM_MASTERS - MASTER FSL parameter is not defined
+   in the HDL source
+WARNING:EDK:2065 - PARAMETER:_MID_WIDTH - MASTER FSL parameter is not defined in
+   the HDL source
+INFO:EDK:1631 - Infer bus clock [FSL_Clk] for bus interface MFSL ...
+INFO:EDK:1632 - Infer bus reset [FSL_Rst] for bus interface MFSL ...
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_M_Clk!
+INFO:EDK:1631 - Infer bus clock [FSL_Clk] for bus interface SFSL ...
+INFO:EDK:1632 - Infer bus reset [FSL_Rst] for bus interface SFSL ...
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+ERROR:EDK:1987 - No port was associated to bus connector FSL_S_Clk!
+Copying file v5fsl.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file arctan_w.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file AsyncReset.vhdl to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file Binary2Gray.vhdl to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file CORDIC.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file FIFO_boundary.vhdl to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file FIFO_read.vhdl to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file FIFO_write.vhdl to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file FIFO.vhdl to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file Gray2Binary.vhdl to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file MUX_0_A1.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file MUX_1_A1.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file MUX_2_A1.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file MUX_3_A1.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file MUX_4_A1.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file MUX_5_A1.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file my_reg.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file NSVD.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file p2r_w.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file r2p_w.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file RAM.vhdl to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file shift.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file stage_I.vhd to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+Copying file Synchronizer.vhdl to
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/hdl/v
+hdl/ ...
+
+Thank you for using Create and Import Peripheral Wizard! Please find your
+imported peripheral under
+/media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a.
+
+Summary:
+
+  Logical library     : v5fsl_v1_00_a
+  Version             : 1.00.a
+  Bus interface(s)    : SFSL MFSL 
+
+The following sub-directories will be created:
+
+  - v5fsl_v1_00_a/data
+  - v5fsl_v1_00_a/hdl
+  - v5fsl_v1_00_a/hdl/vhdl
+  - v5fsl_v1_00_a/netlist
+
+
+The following HDL source files will be copied into the v5fsl_v1_00_a/hdl/vhdl
+directory:
+
+  - v5fsl.vhd
+  - arctan_w.vhd
+  - AsyncReset.vhdl
+  - Binary2Gray.vhdl
+  - CORDIC.vhd
+  - FIFO_boundary.vhdl
+  - FIFO_read.vhdl
+  - FIFO_write.vhdl
+  - FIFO.vhdl
+  - Gray2Binary.vhdl
+  - MUX_0_A1.vhd
+  - MUX_1_A1.vhd
+  - MUX_2_A1.vhd
+  - MUX_3_A1.vhd
+  - MUX_4_A1.vhd
+  - MUX_5_A1.vhd
+  - my_reg.vhd
+  - NSVD.vhd
+  - p2r_w.vhd
+  - r2p_w.vhd
+  - RAM.vhdl
+  - shift.vhd
+  - stage_I.vhd
+  - Synchronizer.vhdl
+
+The following files will be created under the v5fsl_v1_00_a/data directory:
+
+  - v5fsl_v2_1_0.mpd
+  - v5fsl_v2_1_0.pao
+
+  - v5fsl_v2_1_0.bbd
+
+The following netlist file(s) will be copied into the v5fsl_v1_00_a/netlist
+directory:
+
+  - arctan.ngc
+  - p2r.ngc
+  - r2p.ngc
+
+

@@ -1,0 +1,14 @@
+-batch 
+-create v5fsl 
+-ver 1.00.a 
+-dir /media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/ 
+-lang vhdl 
+-bus fsl ms 
+-xps 
+-ise 
+-driver 
+-totalin 3
+-totalout 9
+-argin 3
+-argout 9
+-desc "svd_v5"

@@ -1,0 +1,11 @@
+project new /media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/devl/projnav/v5fsl.ise;
+project set family virtex5;
+project set device xc5vlx110t;
+project set package ff1136;
+project set speed -1;
+project set top_level_module_type HDL;
+project set synthesis_tool "XST (VHDL/Verilog)";
+project set simulator "Modelsim-SE Mixed";
+lib_vhdl new v5fsl_v1_00_a;
+xfile add /media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3//pcores/v5fsl_v1_00_a/hdl/vhdl/v5fsl.vhd -lib_vhdl v5fsl_v1_00_a;
+project close;

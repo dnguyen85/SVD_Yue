@@ -1,0 +1,7 @@
+##############################################################################
+## Filename:          /media/disk/Users/YueWang/Desktop/research/EDK/v5fsl3/pcores/v5fsl_v1_00_a/data/v5fsl_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Tue May 18 02:52:25 2010 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib v5fsl_v1_00_a v5fsl vhdl
